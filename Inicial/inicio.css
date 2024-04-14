@@ -5,26 +5,52 @@
     text-decoration: none;
     border: none;
     outline: none;
+    
 }
 .bola{
-    background-color: aqua;
+    background-color: #a4f9f3;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     position: relative;
+    top: 30%;
+    left: 2%;
 }
 .menu{
-    background-color: rgb(253, 248, 248);
+    background-color: rgb(207, 204, 245);
     height: 100px;
+    width: 1350px;
+    position: relative;
 }
-#Nome{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.Nome{
+    position: relative;
+    top:4%;
+    left: 4.5%;
+    margin-left: 4px;
+    font-family: sans-serif;
+}
+
+.sombra{
+  margin-top: 47px;
+  background-color: black;
+}
+
+.resumo{
+  position: relative;
+  height: 1%;
+  top: -10%;
+  left: 70%;
+}
+
+.bara{
+  position: relative;
+  width: 0.2%;
+  height: 40%;
+  background-color: black;
+  top:-10;
+  left: 80%;
+}
+
+html{
+    padding-bottom: 1000px;
 }
