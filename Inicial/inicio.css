@@ -17,9 +17,9 @@
     left: 2%;
 }
 .menu{
-    background-color: rgb(207, 204, 245);
+    background-color: rgb(238, 238, 247);
     height: 100px;
-    width: 1350px;
+    width: 1349.4999px;
     position: relative;
 }
 .Nome{
@@ -28,18 +28,19 @@
     left: 4.5%;
     margin-left: 4px;
     font-family: sans-serif;
+    width: 285px;
+    height: 1px;
 }
 
-.sombra{
-  margin-top: 47px;
-  background-color: black;
-}
+
 
 .resumo{
   position: relative;
-  height: 1%;
-  top: -10%;
+  top: 15%;
   left: 70%;
+  width: 65px;
+  height: 10px;
+  opacity: 85%;
 }
 
 .bara{
@@ -47,10 +48,17 @@
   width: 0.2%;
   height: 40%;
   background-color: black;
-  top:-10;
-  left: 80%;
+  top: -5%;
+  left: 76%;
 }
 
 html{
     padding-bottom: 1000px;
+}
+
+.experiencias{
+  position:relative;
+  top:-34%;
+  left: 77.5%;
+  opacity: 85%;
 }
