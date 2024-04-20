@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+  }
+
+body{
+  display:grid;
+  grid-template-rows: 68% 410% 85%;
+
+}
+
+/*---------------MENU--------------*/
+
+.menu{
+  background-color: rgb(0, 255, 191);
+  display: grid;
+  grid-template-columns: 3.5% 55% 10% 10% 10%;
+  grid-template-rows: 23% 50% 29%;
+  height: 120px;
+}
+
+#nome{
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  width: 600px;
+  align-self: center;
+}
+
+.bola{
+  background-color: #000000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  grid-column: 1 / span 1;
+  grid-row: 2;
+  align-self: center;
+}
+
+#resumo{
+  grid-column: 4 / span 1;
+  grid-row: 2;
+  width: auto;
+  align-self: center;
+}
+
+#experiencias{
+  grid-column: 5 / span 1;
+  grid-row: 2;
+  width: auto;
+  align-self: center;
+}
+
+#competencias{
+  grid-column: 6 / span 1;
+  grid-row: 2;
+  width: auto;
+  align-self: center;
+}
+
+/*----------------CORPO---------------*/
+.corpo{
+  background-color: red;
+}
+
+
+
+
+/*---------------RODAPE---------------*/
+.rodape{
+  background-color: yellow;
+}
