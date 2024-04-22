@@ -1,4 +1,5 @@
-*{
+
+  *{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -9,7 +10,7 @@
 
 body{
   display:grid;
-  grid-template-rows: 23% 115% 40%;
+  grid-template-rows: 16% 60% 25%;
 
 }
 
@@ -40,7 +41,7 @@ body{
   align-self: center;
 }
 
-.resumo{
+.início{
   grid-column: 4 / span 1;
   grid-row: 2;
   width: auto;
@@ -109,42 +110,45 @@ body{
 .corpo {
   background-color: rgb(214, 221, 219);
   display: grid;
-  grid-template-columns: 20% 25% 25%;
-  grid-template-rows: 15% 60% auto; 
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 5% 100% 10%;
 }
 
-.minha-foto{
-  background-image: url('./foto.jpg');
-  background-size: cover;
-  border-radius: 50%;
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
-  filter: drop-shadow(15px 5px 5px black);
+.container {
+  background-color: hsl(0, 45%, 98%);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  grid-column: 2;
+  height: 400px;
+}
+.apre{
+    position: relative;
+    left:350px;
+    width: 120px;
 }
 
-.meu-nome{
-  grid-column: 3 / span 1;
-  grid-row: 2 / span 1;
-  grid-template-rows: 20% 60%;
-  position: relative;
-  left: 10%;
-}
-
-.texto-sobre-mim{
-  grid-column: 3;
-  grid-row: 2;
-  height: 150px;
-  position: relative;
-  top:60px;
-  left:40px;
-}
-
-.linha-geral{
-  grid-row: 1;
+.linha-geral {
   grid-column: 1 / span 4;
   background-color: black;
   height: 1px;
   opacity: 50%;
+  grid-row: 1;
+}
+
+#t{
+    font-size: 1.2em;
+    grid-row: 1 / span2;
+}
+
+#e{
+    font-size: 1.2em;
+    grid-row: 1 / span2;
+}
+
+#x{
+    font-size: 1.2em;
+    grid-row: 1 / span2;
 }
 
 

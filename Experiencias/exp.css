@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
 
 body{
   display:grid;
-  grid-template-rows: 23% 115% 40%;
+  grid-template-rows: 9% 80% 15%;
 
 }
 
@@ -40,7 +41,7 @@ body{
   align-self: center;
 }
 
-.resumo{
+.início{
   grid-column: 4 / span 1;
   grid-row: 2;
   width: auto;
@@ -54,7 +55,7 @@ body{
   padding: 0;
 }
 
-.experiencias{
+.resumo{
   grid-column: 5 / span 1;
   grid-row: 2;
   width: auto;
@@ -66,6 +67,8 @@ body{
   font-weight: bold;  
   margin: 0; 
   padding: 0;
+  position: relative;
+  left: 20px;
 }
 
 .competencias{
@@ -107,46 +110,66 @@ body{
 
 /*----------------CORPO---------------*/
 .corpo {
-  background-color: rgb(214, 221, 219);
-  display: grid;
-  grid-template-columns: 20% 25% 25%;
-  grid-template-rows: 15% 60% auto; 
+    background-color: rgb(214, 221, 219);
+    display: grid;
+    grid-template-columns: 7% 85% 5%; 
+    grid-template-rows: 28% 50%;
 }
 
-.minha-foto{
-  background-image: url('./foto.jpg');
-  background-size: cover;
-  border-radius: 50%;
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
-  filter: drop-shadow(15px 5px 5px black);
-}
+  
+.container {
+    background-color: hsl(0, 45%, 98%);
+    grid-row: 1; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    grid-column: 2;
+    position: relative;
+    top:15px;
+    height: 420px;
+  }
+  
+  
 
-.meu-nome{
-  grid-column: 3 / span 1;
-  grid-row: 2 / span 1;
-  grid-template-rows: 20% 60%;
-  position: relative;
-  left: 10%;
-}
-
-.texto-sobre-mim{
-  grid-column: 3;
-  grid-row: 2;
-  height: 150px;
-  position: relative;
-  top:60px;
-  left:40px;
-}
-
-.linha-geral{
-  grid-row: 1;
+.linha-geral {
   grid-column: 1 / span 4;
   background-color: black;
   height: 1px;
   opacity: 50%;
+  grid-row: 1;
 }
 
+#tx1{
+  padding: 25px;
+  font-size: 20px;
+}
+
+.container2 {
+    background-color: hsl(0, 45%, 98%);
+    grid-row: 2; 
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    grid-column: 2;
+    position: relative;
+    top:200px;
+    height: 470px;
+  }
+
+.emp2{
+    position: relative;
+    left:15px;
+}
+
+.cg2{
+    position: relative;
+    left:15px;
+}
+
+#tx2{
+  padding: 25px;
+  font-size: 20px;
+}
 
 /*---------------RODAPE---------------*/
 .rodape{
