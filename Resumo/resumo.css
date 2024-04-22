@@ -125,9 +125,11 @@ body{
 }
 .apre{
     position: relative;
-    left:450px;
+    left:510px;
     width: 140px;
+
 }
+
 
 .linha-geral {
   grid-column: 1 / span 4;
@@ -142,6 +144,7 @@ body{
     grid-row: 1 / span2;
     position: relative;
     top: 40px;
+    
 }
 
 #e{
