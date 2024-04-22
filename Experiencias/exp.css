@@ -144,6 +144,16 @@ body{
   font-size: 20px;
 }
 
+.emp1{
+  position: relative;
+  left: 35%;
+}
+
+.cg1{
+  position: relative;
+  left: 33%;
+}
+
 .container1{
     background-color: hsl(0, 45%, 98%);
     grid-row: 4; 
@@ -157,7 +167,15 @@ body{
     filter: drop-shadow(12px 5px 5px black);
   }
 
-
+  .emp2{
+    position: relative;
+    left: 35%;
+  }
+  
+  .cg2{
+    position: relative;
+    left: 28%;
+  }
 
 #tx2{
   padding: 25px;
