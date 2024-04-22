@@ -10,7 +10,7 @@
 
 body{
   display:grid;
-  grid-template-rows: 9% 80% 15%;
+  grid-template-rows: 9% 90% 15%;
 
 }
 
@@ -112,24 +112,24 @@ body{
 .corpo {
     background-color: rgb(214, 221, 219);
     display: grid;
-    grid-template-columns: 7% 85% 5%; 
-    grid-template-rows: 28% 50%;
+    grid-template-columns:10% 80% 5%; 
+    grid-template-rows: 5% 40% 2% 50%;
 }
 
   
-.container {
+.container8{
     background-color: hsl(0, 45%, 98%);
-    grid-row: 1; 
+    
+    grid-row: 2;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     grid-column: 2;
-    position: relative;
-    top:15px;
-    height: 420px;
+    width: 100% !important;
+    padding: 25px;
+    font-size: 20px;
+    filter: drop-shadow(12px 5px 5px black);
   }
-  
-  
 
 .linha-geral {
   grid-column: 1 / span 4;
@@ -144,27 +144,20 @@ body{
   font-size: 20px;
 }
 
-.container2 {
+.container1{
     background-color: hsl(0, 45%, 98%);
-    grid-row: 2; 
+    grid-row: 4; 
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     grid-column: 2;
     position: relative;
-    top:200px;
-    height: 470px;
+    padding: 25px;
+    font-size: 20px;
+    filter: drop-shadow(12px 5px 5px black);
   }
 
-.emp2{
-    position: relative;
-    left:15px;
-}
 
-.cg2{
-    position: relative;
-    left:15px;
-}
 
 #tx2{
   padding: 25px;
